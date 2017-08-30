@@ -1,4 +1,4 @@
-# Intro to CS
+# CS（コンピュータサイエンス）入門
 
 ## A 14 week Introduction to Computer Science course.
 
