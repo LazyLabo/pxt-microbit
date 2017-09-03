@@ -1,4 +1,4 @@
-`# イントロダクション
+#イントロダクション
 
 micro:bitとは?
 micro:bitは子供たちにコンピュータサイエンスを教えるために、2015年にイギリスのBBCによって開発されました。BBCは11歳から12歳の子供たちにmicro:bitを無料で配布しました。micro:bitは小さなコンピュータと考えてもいいでしょう。
@@ -25,17 +25,17 @@ http://microbit.org
 
 ![micro:bit hardware](/static/courses/csintro/algorithms/microbit-hardware.png)
 
-* Use the diagram here as a visual aid: http://microbit.org/hardware/ 
-* Can you find the Processor?
-* How much memory does the micro:bit have? 16K, which is smaller than many files on your computer!
-* Can you locate the following Inputs?  Buttons (on board), Pins (at base), Accelerometer / Compass.
->Note: Though not pictured, the Light Sensor is located on the LED lights
-* Where are the Outputs?  LED lights, Pins
+* 図を参考にしながら確認しましょう: http://microbit.org/hardware/ 
+* プロセッサはどこにあるでしょう？
+* micro:bitにはどのぐらいのメモリがあると思いますか？ 答えは16KB（16キロバイト）です。これは普通のコンピュータで扱うファイルのサイズよりもずっと小さいです！
+* インプットを探してあてることが出来るかな？ボタン（ボード上にあります）, ピン (正面から見て下側にあります), Accelerometer（重力センサー） / Compass（方位磁石）.
+>備考: 図で示されてはいませんが、5x5のLEDライトの部分に光センサーがあります。
+* アウトプットはどれでしょう？ 5x5のLDEライトとピンがあります。
 
-All computers need electricity to power them.  There are 3 ways to power your micro:bit:
-* Through the USB port at the top
-* By connecting a battery pack to the battery connector
-* Through the 3V Pin at the bottom (not the recommended way to power your micro:bit)
+どんなコンピュータも電気の力を必要とします。micro:bitに電源を供給する方法は３通りあります:
+* 上側のUSBポートから
+* バッテリーコネクタにつないだ電池から
+* ピンの一つ「3Vピン」から (この方法はお勧めしていません)
 
-On the top left corner you may notice that your micro:bit has a Bluetooth antenna.  This means your micro:bit can communicate and send information to other micro:bits.  We will learn more about this feature in the Radio Lesson.
+本体左上にBluetooth専用アンテナがあることに気づいたでしょうか？これはどういうことかというと2台のmicro:bitの間で情報交換できるということです。「ラジオの章」でもっと詳しく学びましょう。
 
