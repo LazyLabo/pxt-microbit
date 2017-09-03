@@ -1,27 +1,27 @@
-`# Introduction
+`# イントロダクション
 
-What is a micro:bit?
-The micro:bit was created in 2015 in the UK by the BBC to teach computer science to students. The BBC gave away a micro:bit to every Year 7 student in the UK. You can think of a micro:bit as a mini computer.
+micro:bitとは?
+micro:bitは子供たちにコンピュータサイエンスを教えるために、2015年にイギリスのBBCによって開発されました。BBCは11歳から12歳の子供たちにmicro:bitを無料で配布しました。micro:bitは小さなコンピュータと考えてもいいでしょう。
 http://microbit.org
 
 ![BBC micro:bit](/static/courses/csintro/algorithms/bbc-microbit.jpg)
 
-## What is a computer?
-There are 4 main components that make up any computer:
+## コンピュータとは？
+多くのコンピュータは4つの主なパーツで成り立っています:
 
 ![Computer components](/static/courses/csintro/algorithms/cpu.png)
 
-1. The Processor – this is usually a small chip inside the computer, and it’s how the computer processes and transforms information. Has anyone heard of the term “CPU”?  CPU stands for Central Processing Unit. You can think of the processor as the Brains of the computer - the faster the processor, the more quickly the computer can think.
+1. プロセッサ – コンピュータの内部にある小さなチップ。情報を処理したり変換したり出来ます。「CPU」という言葉を聞いたことがありますか？ CPUは「Central Processing Unit（中央情報処理装置）」の略です. プロセッサをコンピュータの脳に例えると、処理速度が速ければ速いほど、コンピュータもより早く考えることが出来るということになります。
 
-2. The Memory – this is how the computer remembers things. There are two types of memory:
->* RAM (random access memory) - you can think of this as the computer’s short-term memory
->* Storage (also referred to as the “hard drive”) - this is the computer’s long-term memory, where it can store information even when power is turned off
+2. メモリ – コンピュータはメモリを使って物事を記憶することが出来ます。メモリには大きく分けて二種類あります:
+>* RAM (random access memory) - 短い間だけ覚えておくためのメモリ
+>* ストレージ (「ハードドライブ」と呼ばれることもあります) - こちらは長い間、覚えておくためのメモリで、電源を入れていない状態でも情報を記憶しておくことが出来ます。
 
-3. Inputs – this is how a computer takes in information from the world.  On humans, our input comes in through our senses, such as our ears and eyes. What are some Computer Inputs?  Keyboard, Mouse, Touchscreen, Camera, Microphone, Game Controller, Scanner
+3. インプット Inputs （入力） – コンピュータが外界から情報を取り入れる仕組みのことです。人間の場合、耳や目などの五感を通してインプットが得られます。コンピュータの場合はどうでしょう？キーボード、マウス、タッチスクリーンに、カメラ、マイクロフォン、ゲームコントローラー、スキャナーなどいろいろあります。
 
-4. Outputs – this is how a computer displays or communicates information.  On humans, we communicate information by using our mouths when we talk. What are some examples of communication that don't involve talking?  Blushing, sign language. What are some examples of Computer outputs?  Monitor/Screen, Headphones/Speakers, Printer
+4. アウトプット Outputs（出力） – コンピュータが情報を表示したり伝えたりする仕組みのことです。人間は話をするときには口を使うことが多いです。では、口を使う以外に他にどんな方法で話すことができるでしょうか？顔の表情や手話などがありますね。コンピュータのアウトプットにはどんなものがあるでしょう？モニター/スクリーン、ヘッドフォン/スピーカー、プリンタなどがあります。
 
-Now, let’s look at our micro:bit:
+それでは次に micro:bit を見て見ましょう：
 
 ![micro:bit hardware](/static/courses/csintro/algorithms/microbit-hardware.png)
 
