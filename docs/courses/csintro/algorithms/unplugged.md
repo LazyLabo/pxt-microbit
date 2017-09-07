@@ -1,25 +1,25 @@
-# Unplugged: What's your function & crazy conditionals
+# Unplugged: 関数とクレイジーな条件文
 
-Materials
-* Pencils
-* Paper (or index cards)
+教材
+* 鉛筆
+* 紙 (またはインデックス・カード)
 
-![Inputs process outputs](/static/courses/csintro/algorithms/inputs-process-outputs.png)
+![入力 処理 出力](/static/courses/csintro/algorithms/inputs-process-outputs.png)
 
-In computer programming, algorithms are sets of instructions.
+コンピュータ・プログラミングでは、アルゴリズムとはひとまとまりの命令語のことを指します。
 
-Algorithms ‘tell’ the computer how to process input and what, if any, output to produce.
+アルゴリズムはコンピュータに対して、どのように入力情報を処理するかを指示し、さらに出力情報がある場合はどのような情報を出力するかを指示します。
 
-An example of an algorithm you have seen in math class is the ‘function machine’.
+アルゴリズムの例としては、算数のクラスで見たことがあるかもしれない「関数マシーン」というのがあります。
 
-![Inputs function output](/static/courses/csintro/algorithms/input-function-output.png)
+![入力 関数 出力](/static/courses/csintro/algorithms/input-function-output.png)
 
-A function machine takes an input, processes the input, and then delivers an output.
+関数マシーンは入力情報を取り入れて、それを処理して、出力を生成します。
 
-The inputs and their outputs are usually recorded in an input output table, where the value of x represents the input and the value of y represents the output. See example.
+入力と出力の情報はｘを入力として、そしてｙを出力として表す「入出力表」に記録することが出来ます。例えば：
 
 ```
-Input (x)	Output (y)
+入力 (x)	出力 (y)
 ======================
     1           2
     2           4
@@ -27,10 +27,10 @@ Input (x)	Output (y)
     4           8
 ```
 
-A common math problem is to determine what processing is happening to the input that results in the given output. In the example above, each input is being doubled (multiplied by 2) to produce the corresponding output.
+算数のよくある問題のひとつに、それぞれの入力に対する出力結果からどのような処理かを判断する、というものがあります。上の例の場合、それぞれの入力値は2倍（２を掛ける）になっていることがわかります。
 
 ```
-Input (x)	Processing =>	Output (y)
+入力 (x)      処理 =>        出力 (y)
 ======================================
     1            * 2             2
     2            * 2             4
@@ -38,19 +38,19 @@ Input (x)	Processing =>	Output (y)
     4            * 2             8
 ```
 
-## Unplugged: What's your function?
-For this activity, the students can work in pairs, Player A and Player B. The pairs will take turns being the function machine for their partner who will be providing input to be processed.
+## Unplugged: あなたはどんな関数ですか？
+このアクティビティでは生徒はプレイヤーAとプレイヤーBとして二人一組のペアで行います。ペアのひとりが関数マシーンとして、もう片方のパートナーからの入力を処理します。
 
-Direct the students how you would like them to record their work. 
-They can use pencil and paper or index cards.
-On paper, they can keep track of inputs and outputs in a table (see example above).
-With index cards, Player A can write each input on one side of an index card, hand the card to Player B, who then writes the corresponding output on the other side of the card.
+生徒には、どのように結果を記録してほしいかを指示しましょう。
+鉛筆と紙を使ってもいいですし、紙の代わりにインデックス・カードを使用しても構いません。
+紙に書く場合は、入力と出力の値を表になるように記録していきます (上の例を参考にしましょう)。
+インデックス・カードを使う場合は、プレイヤーAがインデックス・カードの表に入力の値をひとつ書いた後プレイヤーBに渡します。プレイヤーBはその裏に出力の値を書き込みます。
 
-### To begin:
-* Player B decides on a mathematical function or bit of processing* that will be done on whatever input she receives from Player A. 
-* Player B should write down the function or bit of processing and set it aside, out of sight of Player A.
-* Player A then gives Player B a number to process.
-* Player B processes the number and returns an output to Player A.
+### 始め方:
+* プレイヤーBは、プレイヤーAから渡される入力を処理するための、算数の関数もしくはちょっとした数の操作をひとつ決めます。
+* プレイヤーBは決定した関数（もしくは数の操作）を別の紙に書いて、プレイヤーAからは見えない場所に置いておきます。
+* プレイヤーAはプレイヤーBに数を伝えます。
+* プレイヤーBはその数に処理を加え、結果を出力としてプレイヤーAに返します。
 * Player A can then state what function or bit of processing she thinks Player B is using on the input to produce the given output. One try per round of input/output.
 * If Player A states the correct function, Player B confirms that it is correct by showing the previously hidden function and the players switch roles and start the game over.
 * If Player A does not guess correctly, Player A provides another input that Player B processes and provides an output for.
